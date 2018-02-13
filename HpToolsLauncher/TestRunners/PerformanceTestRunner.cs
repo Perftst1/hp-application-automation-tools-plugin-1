@@ -319,7 +319,7 @@ namespace HpToolsLauncher.TestRunners
                 _scenarioEndedEvent = false;
             }
 
-            _engine.ShowMainWindow(0);
+            _engine.ShowMainWindow(1);
 #if DEBUG
             _engine.ShowMainWindow(1);
 #endif
